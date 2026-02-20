@@ -1,0 +1,8 @@
+name: Hello GitHub Actions
+on: [push] # The Event
+jobs:
+  greet:
+    runs-on: ubuntu-latest # The Runner
+    steps:
+      - name: Say Hello
+        run: echo "Hello, GitHub Actions is running!" # The Step
