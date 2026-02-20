@@ -1,5 +1,11 @@
 name: Hello GitHub Actions
-on: workflow_dispatch # The Event
+on: 
+  push:
+    branches: [ feature, main ]
+  pull_request:
+      branches: [ main ]
+  schedule:
+      - cron: '<cron-expression># The Event
 jobs:
   greet:
     runs-on: ubuntu-latest # The Runner
