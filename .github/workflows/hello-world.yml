@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest # The Runner
     steps:
       - name: Say Hello
-        run: echo "Hello, GitHub Actions is running! # The Step
+        run: echo "Hello, GitHub Actions is running!" # The Step
       - name: greeting
         run: echo "good morning/evening"
