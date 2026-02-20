@@ -1,5 +1,5 @@
 name: Hello GitHub Actions
-on: [push] # The Event
+on: workflow_dispatch # The Event
 jobs:
   greet:
     runs-on: ubuntu-latest # The Runner
